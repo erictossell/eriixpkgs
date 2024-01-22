@@ -19,7 +19,7 @@
       in {
         packages = {
 	  eriixvim = eriixvim.packages.${system}.default;
-          goTime = go-time.packages.${system}.default;
+          go-time = go-time.packages.${system}.default;
           russh = russh.packages.${system}.default;
           homepage = homepage-nix.packages.${system}.default;
         };
