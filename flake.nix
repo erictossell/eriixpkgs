@@ -24,7 +24,7 @@
           homepage = homepage-nix.packages.${system}.default;
         };
         nixosModules = {
-         homepage = homepage-nix.nixosModules.default;
+          homepage-nix = homepage-nix.nixosModules.default;
         };
       }
     );
