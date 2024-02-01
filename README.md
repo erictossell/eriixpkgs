@@ -5,7 +5,7 @@ My collection of Nix packages. Home-rolled, custom built.
 ## Nix Flake Show
 
 ```nix
-git+file:///home/eriim/repos/nix/eriixpkgs
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
