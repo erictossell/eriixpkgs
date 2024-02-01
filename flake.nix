@@ -6,7 +6,7 @@
     go-time.url = "github:erictossell/go-time";
     russh.url = "github:erictossell/russh";
     homepage-nix.url = "github:erictossell/homepage-nix";
-    nixpkgs.url = "nixpkgs/nixos-unstable";  # Adjust this to your NixOS version
+    nixpkgs.url = "nixpkgs/nixos-unstable"; 
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -24,7 +24,7 @@
           homepage = homepage-nix.packages.${system}.default;
         };
         nixosModules = {
-          homepage-nix = homepage-nix.nixosModules.${system}.default;
+          homepage-nix = homepage-nix.nixosModules.${system}.homepage-nix;
         };
       }
     );

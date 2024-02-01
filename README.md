@@ -3,7 +3,13 @@
 My collection of Nix packages. Home-rolled, custom built.
 
 
-`nix flake show`
+`Directory Tree`
+
+```bash
+    [docs](docs/)/
+        [readme.md](docs/readme.md)
+```
+## Nix Flake Show
 
 ```nix
 git+file:///home/eriim/repos/nix/eriixpkgs
