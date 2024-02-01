@@ -76,7 +76,7 @@ def generate_readme(
 
     if include_links:
         dir_tree_links = directory_tree(path, make_links=True)
-        readme_content += "\n\n`Directory Tree`\n\n" + dir_tree_links + "\n"
+        readme_content += "\n`Directory Tree`\n" + dir_tree_links + "\n\n"
 
     if include_nix:
         flake_show_output = run_command("nix flake show . --all-systems")
