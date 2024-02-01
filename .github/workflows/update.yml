@@ -1,4 +1,4 @@
-name: Flake update
+name: Flake Update
 
 on: 
   schedule:
