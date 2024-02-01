@@ -2,17 +2,11 @@
 
 My collection of Nix packages. Home-rolled, custom built.
 
-### Pkgs
 
-- [eriixvim](https://github.com/erictossell/eriixvim)
-- [go-time](https://github.com/erictossell/go-time)
-- [homepage-nix](https://github.com/erictossell/homepage-nix)
-- [russh](https://github.com/erictossell/russh)
+`nix flake show`
 
-#### Nix Flake Show
-
-```bash
-git+file:///eriixpkgs
+```nix
+git+file:///home/eriim/repos/nix/eriixpkgs
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
@@ -39,4 +33,5 @@ git+file:///eriixpkgs
         ├───go-time: package 'go-time-0.1.58'
         ├───homepage: package 'homepage-nix-0.2.0'
         └───russh: package 'russh-0.1.92'
+
 ```
