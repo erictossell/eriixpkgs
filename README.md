@@ -5,8 +5,9 @@ My collection of Nix packages. Home-rolled, custom built.
 
 `Directory Tree`
 
-    [docs](docs/)/
-        [readme.md](docs/readme.md)
+[docs](docs/)/
+    [readme.md](docs/readme.md)
+
 ## Nix Flake Show
 
 ```nix
