@@ -16,33 +16,41 @@ def run_command(command):
     return strip_ansi_sequences(result.stdout)
 
 
+def git_tracked_directories(base_path):
+    """Get a list of directories tracked by Git, excluding hidden directories."""
+    try:
+        output = subprocess.check_output(
+            ["git", "ls-tree", "-r", "--name-only", "HEAD"], cwd=base_path, text=True
+        )
+        directories = set()
+
+        for file in output.strip().split("\n"):
+            if "/" in file:
+                dir_path = os.path.dirname(file)
+                # Split the path and check each part for being a hidden directory
+                if not any(part.startswith(".") for part in dir_path.split("/")):
+                    directories.add(dir_path)
+
+        return sorted(directories)
+    except subprocess.CalledProcessError:
+        return []
+
+
 def directory_tree(path, make_links=False):
-    """Generate a directory tree structure, optionally as Markdown links."""
+    """Generate a directory tree structure for directories tracked by Git."""
     tree = []
-    for root, dirs, files in os.walk(path):
-        # Skip hidden directories and files
-        dirs[:] = [d for d in dirs if not d.startswith(".")]
-        files[:] = [f for f in files if not f.startswith(".")]
-        level = root.replace(path, "").count(os.sep)
+    tracked_dirs = git_tracked_directories(path)
 
-        # Skip root level files and hidden files
-        if level == 0:
-            continue
+    for dir in tracked_dirs:
+        level = dir.count("/")
+        indent = " " * 4 * level
+        dir_name = os.path.basename(dir)
 
-        subdir = os.path.basename(root)
-        # Format directory as link if required
         if make_links:
-            subdir_path = os.path.relpath(root, path)
-            subdir = f"[{subdir}]({subdir_path}/)"
-        tree.append(f"{' ' * 4 * (level - 1)}{subdir}/")
+            dir_path = os.path.relpath(dir, path)
+            dir_name = f"[{dir_name}]({dir_path}/)"
 
-        # Add files
-        for file in files:
-            file_indent = " " * 4 * level
-            if make_links:
-                file_path = os.path.relpath(os.path.join(root, file), path)
-                file = f"[{file}]({file_path})"
-            tree.append(f"{file_indent}{file}")
+        tree.append(f"{indent}{dir_name}/")
 
     return "\n".join(tree)
 

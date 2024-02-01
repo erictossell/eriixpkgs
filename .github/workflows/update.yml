@@ -27,7 +27,7 @@ jobs:
         python-version: '3.9'
 
     - name: Readme.py
-      run: python readme.py --header ./docs/readme.md --nix
+      run: python readme.py --header docs/readme.md --nix
 
     - name: Commit and push
       uses: stefanzweifel/git-auto-commit-action@v5
