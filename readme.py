@@ -29,17 +29,16 @@ def directory_tree(path, make_links=False):
         if level == 0:
             continue
 
-        indent = " " * 4 * level
         subdir = os.path.basename(root)
         # Format directory as link if required
         if make_links:
             subdir_path = os.path.relpath(root, path)
             subdir = f"[{subdir}]({subdir_path}/)"
-        tree.append(f"{indent}{subdir}/")
+        tree.append(f"{' ' * 4 * (level - 1)}{subdir}/")
 
         # Add files
         for file in files:
-            file_indent = " " * 4 * (level + 1)
+            file_indent = " " * 4 * level
             if make_links:
                 file_path = os.path.relpath(os.path.join(root, file), path)
                 file = f"[{file}]({file_path})"
