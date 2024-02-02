@@ -8,7 +8,7 @@ My collection of Nix packages. Home-rolled, custom built.
 ## Nix Flake Show
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=6dccc51fd0d966cf3d0761eb373036a0d015c677&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=adb813422320f22884c8cdedf8494b77dee1cc47&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
