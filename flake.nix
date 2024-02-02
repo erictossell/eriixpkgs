@@ -1,5 +1,5 @@
 {
-  description = "A flake wrapping packages and modules";
+  description = "Eriixpkgs is a collection of my personal Nix packages and NixOS modules";
 
   inputs = {
     eriixvim.url = "github:erictossell/eriixvim";
