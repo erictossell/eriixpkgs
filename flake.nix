@@ -21,7 +21,7 @@
 	  eriixvim = eriixvim.packages.${system}.default;
           go-time = go-time.packages.${system}.default;
           russh = russh.packages.${system}.default;
-          homepage = homepage-nix.packages.${system}.default;
+          homepage-nix = homepage-nix.packages.${system}.homepage-nix;
         };
         nixosModules = {
           homepage-nix = homepage-nix.nixosModules.${system}.homepage-nix;
