@@ -31,15 +31,15 @@
       }
     ) // {
       templates = {
-        go-flake = {
+        go = {
 	  path = ./templates/go-flake;
 	  description = "A template for a Go flake";
 	};
-	rust-flake = {
+	rust = {
 	  path = ./templates/rust-flake;
 	  description = "A template for a Rust flake";
 	};
-	python-flake = {
+	python = {
 	  path = ./templates/python-flake;
 	  description = "A template for a Python flake";
 	};
