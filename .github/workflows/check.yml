@@ -5,6 +5,9 @@ on:
     workflows: ["Flake Update"]
     types:
       - completed
+  push:
+    branches:
+      - main
 
 jobs:
   update:
