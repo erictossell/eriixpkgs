@@ -9,6 +9,7 @@ My collection of Nix packages. Home-rolled, custom built.
 
 ### Directory Structure
 
+- [templates/](templates/)
   - [go-flake/](templates/go-flake/)
   - [python-flake/](templates/python-flake/)
     - [app/](templates/python-flake/app/)
@@ -19,11 +20,11 @@ My collection of Nix packages. Home-rolled, custom built.
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=f376883203b3ba6a5dde0f051ecf3047dd81c043&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=04e4b260a96674d177b6691e60b64b293842bc3b&shallow=1
 Description:   A flake wrapping packages and modules
-Path:          /nix/store/6jni75x0wxdjhc9i4kq28pn11nlzlj4z-source
-Revision:      f376883203b3ba6a5dde0f051ecf3047dd81c043
-Last modified: 2024-02-02 23:04:25
+Path:          /nix/store/06rdlxdi9j6f01w6c1gsk8bw5v94hvcl-source
+Revision:      04e4b260a96674d177b6691e60b64b293842bc3b
+Last modified: 2024-02-02 23:09:17
 Inputs:
 ├───eriixvim: github:erictossell/eriixvim/527dfae7b8e7771d1b81fe3ff2a335cad412b3ad
 │   ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
@@ -81,7 +82,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=f376883203b3ba6a5dde0f051ecf3047dd81c043&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=04e4b260a96674d177b6691e60b64b293842bc3b&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
@@ -113,9 +114,9 @@ git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=f376883
 │       ├───readme-py: package 'python3.11-readme-py-0.1.0'
 │       └───russh: package 'russh-0.1.92'
 └───templates
-    ├───go-flake: template: A template for a Go flake
-    ├───python-flake: template: A template for a Python flake
-    └───rust-flake: template: A template for a Rust flake
+    ├───go: template: A template for a Go flake
+    ├───python: template: A template for a Python flake
+    └───rust: template: A template for a Rust flake
 
 ```
 
