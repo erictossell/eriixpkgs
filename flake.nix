@@ -27,6 +27,21 @@
           homepage-nix = homepage-nix.nixosModules.${system}.homepage-nix;
         };
       }
-    );
+    ) // {
+      templates = {
+        go-flake = {
+	  path = ./templates/go-flake;
+	  description = "A template for a Go flake";
+	};
+	rust-flake = {
+	  path = ./templates/rust-flake;
+	  description = "A template for a Rust flake";
+	};
+	python-flake = {
+	  path = ./templates/python-flake;
+	  description = "A template for a Python flake";
+	};
+      };
+    };
 }
 
