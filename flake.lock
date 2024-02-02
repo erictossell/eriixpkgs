@@ -218,11 +218,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1706894569,
-        "narHash": "sha256-bWWCzs044Ng7fSIgTFmVc+8+U+qVqMZCdjTRwXONn2o=",
+        "lastModified": 1706895560,
+        "narHash": "sha256-qeG0kQYJEexN9dPEVgODR+zBcZSzpIX8asqzfjIB9tE=",
         "owner": "erictossell",
         "repo": "homepage-nix",
-        "rev": "fd7ecba520b75a3476a2777b807d7b608c58cf6d",
+        "rev": "7895b342647955e8572363bbbfb331d15255dd48",
         "type": "github"
       },
       "original": {
