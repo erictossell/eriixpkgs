@@ -20,11 +20,11 @@ My collection of Nix packages. Home-rolled, custom built.
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=7ec69e7d397e358fdf2ff021e1d66fab52f309ec&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=cd980a39509e1a10f8d9690a77a73a139cf5dadc&shallow=1
 Description:   Eriixpkgs is a collection of my personal Nix packages and NixOS modules
-Path:          /nix/store/y3af2ysiji7l6564gnp76dvkxprif2da-source
-Revision:      7ec69e7d397e358fdf2ff021e1d66fab52f309ec
-Last modified: 2024-02-03 00:16:22
+Path:          /nix/store/0kh7drr23x08rgydx6pqd3f186bpd0y2-source
+Revision:      cd980a39509e1a10f8d9690a77a73a139cf5dadc
+Last modified: 2024-02-04 00:17:34
 Inputs:
 ├───eriixvim: github:erictossell/eriixvim/527dfae7b8e7771d1b81fe3ff2a335cad412b3ad
 │   ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
@@ -57,7 +57,7 @@ Inputs:
 │   └───utils: github:numtide/flake-utils/1ef2e671c3b0c19053962c07dbda38332dcebf26
 │       └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
 ├───nixpkgs: github:NixOS/nixpkgs/b8b232ae7b8b144397fdb12d20f592e5e7c1a64d
-├───readme-py: github:erictossell/readme-py/a68754654d7fb595890f3973673cbaa71f386a6e
+├───readme-py: github:erictossell/readme-py/bb3e80e2a8205d915cfc38ed2b4f2951443b0024
 │   ├───flake-utils: github:numtide/flake-utils/1ef2e671c3b0c19053962c07dbda38332dcebf26
 │   │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
 │   ├───nixpkgs: github:NixOS/nixpkgs/b8b232ae7b8b144397fdb12d20f592e5e7c1a64d
@@ -82,7 +82,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=7ec69e7d397e358fdf2ff021e1d66fab52f309ec&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=cd980a39509e1a10f8d9690a77a73a139cf5dadc&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
