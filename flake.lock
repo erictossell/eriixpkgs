@@ -553,11 +553,11 @@
         "poetry2nix": "poetry2nix"
       },
       "locked": {
-        "lastModified": 1706916079,
-        "narHash": "sha256-tVhQLRzvSn5r/Asq3/Cr+MuifYQCbjcIjc0EMMuS9s4=",
+        "lastModified": 1707005504,
+        "narHash": "sha256-jKuXx1Bwt2mZyfwBjwXeZPm+ULUukmhd9VOir7o6wHY=",
         "owner": "erictossell",
         "repo": "readme-py",
-        "rev": "a68754654d7fb595890f3973673cbaa71f386a6e",
+        "rev": "bb3e80e2a8205d915cfc38ed2b4f2951443b0024",
         "type": "github"
       },
       "original": {
