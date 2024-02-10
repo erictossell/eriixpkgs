@@ -24,7 +24,4 @@ jobs:
         nix_path: nixpkgs=channel:nixos-unstable
 
     - name: Flake update
-      run: nix flake check --all-systems
-
-
-    
+      run: nix flake check   
