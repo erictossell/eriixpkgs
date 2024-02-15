@@ -20,17 +20,17 @@ My collection of Nix packages. Home-rolled, custom built.
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=d9eb7df7d87fa937df95d5638c41130174c63d84&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=bcf28b5d6b1152d74d4611dd9c53642d27cd363c&shallow=1
 Description:   Eriixpkgs is a collection of my personal Nix packages and NixOS modules
-Path:          /nix/store/9v4k29cpkhz5irihxcpwvj9y61wgdgfp-source
-Revision:      d9eb7df7d87fa937df95d5638c41130174c63d84
-Last modified: 2024-02-14 00:16:00
+Path:          /nix/store/zmw84pc44pkwv0kd3cgl5w19dm4cia8s-source
+Revision:      bcf28b5d6b1152d74d4611dd9c53642d27cd363c
+Last modified: 2024-02-15 00:16:02
 Inputs:
-├───eriixvim: github:erictossell/eriixvim/5a706c2035a1b1b521379b1fe0cbda5f2568ec3d
+├───eriixvim: github:erictossell/eriixvim/4cf323af5a6a50d7c276b1393867dd36dfc96b8a
 │   ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
 │   │   └───nixpkgs-lib: github:NixOS/nixpkgs/97b17f32362e475016f942bbdfda4a4a72a8a652?dir=lib
-│   ├───nixpkgs: github:nixos/nixpkgs/d934204a0f8d9198e1e4515dd6fec76a139c87f0
-│   └───nixvim: github:nix-community/nixvim/81ff1f8f6f5dec432f6b71ddd5e8dd57ac424f58
+│   ├───nixpkgs: github:nixos/nixpkgs/f9d39fb9aff0efee4a3d5f4a6d7c17701d38a1d8
+│   └───nixvim: github:nix-community/nixvim/6dd2eed61372cc6d9959fdcc6ec249d438363050
 │       ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
 │       │   └───nixpkgs-lib follows input 'eriixvim/nixvim/nixpkgs'
 │       ├───home-manager: github:nix-community/home-manager/5b9156fa9a8b8beba917b8f9adbfd27bf63e16af
@@ -82,7 +82,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=d9eb7df7d87fa937df95d5638c41130174c63d84&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=bcf28b5d6b1152d74d4611dd9c53642d27cd363c&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
