@@ -20,13 +20,13 @@ My collection of Nix packages. Home-rolled, custom built.
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=034bdbaae1d0c0f3074d2368fc45685cda73d574&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=b8096b7e42111e977a6ee439b5390092a6a6b0dd&shallow=1
 Description:   Eriixpkgs is a collection of my personal Nix packages and NixOS modules
-Path:          /nix/store/rw0f5jpslck9n3q4wbw5hsiy9pq2bl27-source
-Revision:      034bdbaae1d0c0f3074d2368fc45685cda73d574
-Last modified: 2024-02-16 00:15:51
+Path:          /nix/store/2dqd88218bkil27vrl90gqs5ga4c1xm0-source
+Revision:      b8096b7e42111e977a6ee439b5390092a6a6b0dd
+Last modified: 2024-02-17 00:16:06
 Inputs:
-├───eriixvim: github:erictossell/eriixvim/2fffbb80b961ccced5dd52a2d0f9d5b702ec2094
+├───eriixvim: github:erictossell/eriixvim/37dd1627f9b2a49c6851766b2f35d04fa7e37ced
 │   ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
 │   │   └───nixpkgs-lib: github:NixOS/nixpkgs/97b17f32362e475016f942bbdfda4a4a72a8a652?dir=lib
 │   ├───nixpkgs: github:nixos/nixpkgs/f9d39fb9aff0efee4a3d5f4a6d7c17701d38a1d8
@@ -82,7 +82,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=034bdbaae1d0c0f3074d2368fc45685cda73d574&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=b8096b7e42111e977a6ee439b5390092a6a6b0dd&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
