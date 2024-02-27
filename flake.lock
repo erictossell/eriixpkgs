@@ -7,11 +7,11 @@
         "nixvim": "nixvim"
       },
       "locked": {
-        "lastModified": 1708820638,
-        "narHash": "sha256-tWRqQrw1D5B+3ImZC6bDm6K44vYtKhMtwcY3cTCOOlA=",
+        "lastModified": 1708906979,
+        "narHash": "sha256-1y7h6V/IvQKwiYfom9webWDggAmveTOEJoPaS12EiuU=",
         "owner": "erictossell",
         "repo": "eriixvim",
-        "rev": "c31fc72f5aae5b89e36f6a29ffc8b09c6cbf3a98",
+        "rev": "75b75719ac9db3ca01aeec0231cd535bb3ca847d",
         "type": "github"
       },
       "original": {
