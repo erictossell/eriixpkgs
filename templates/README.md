@@ -6,8 +6,8 @@ This repository contains Flake templates for the programming languages I primari
 ### Usage
 
 ```nix
-nix flake new -t github:Eriim/flake-templates#python
-nix flake new -t github:Eriim/flake-templates#go
-nix flake new -t github:Eriim/flake-templates#rust
+nix flake new -t github:erictossell/eriixkpkgs#python
+nix flake new -t github:erictossell/eriixkpkgs#go
+nix flake new -t github:erictossell/eriixkpkgs#rust
 ```
 
