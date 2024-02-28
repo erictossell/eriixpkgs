@@ -10,23 +10,23 @@ My collection of Nix packages. Home-rolled, custom built.
 ### Directory Structure
 
 - [templates/](templates/)
-  - [go-flake/](templates/go-flake/)
-  - [python-flake/](templates/python-flake/)
-    - [app/](templates/python-flake/app/)
-  - [rust-flake/](templates/rust-flake/)
-    - [src/](templates/rust-flake/src/)
+  - [go/](templates/go/)
+  - [python/](templates/python/)
+    - [app/](templates/python/app/)
+  - [rust/](templates/rust/)
+    - [src/](templates/rust/src/)
 
 ### Flake Info
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=7c62add6741ff2439b5b88cde9f6241d4a01e048&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=a84af6d36b1c1fa01581ecdcb0d53c7c025d37e4&shallow=1
 Description:   Eriixpkgs is a collection of my personal Nix packages and NixOS modules
-Path:          /nix/store/a1p11424qi1dlzwv3r0yng5fh0mcfs8z-source
-Revision:      7c62add6741ff2439b5b88cde9f6241d4a01e048
-Last modified: 2024-02-27 00:16:22
+Path:          /nix/store/xfm16xshp5ypqhsclnz7fr31fnznaybk-source
+Revision:      a84af6d36b1c1fa01581ecdcb0d53c7c025d37e4
+Last modified: 2024-02-28 00:15:35
 Inputs:
-├───eriixvim: github:erictossell/eriixvim/75b75719ac9db3ca01aeec0231cd535bb3ca847d
+├───eriixvim: github:erictossell/eriixvim/998a3c8704890cf77591cefd3551c734734c130d
 │   ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
 │   │   └───nixpkgs-lib: github:NixOS/nixpkgs/97b17f32362e475016f942bbdfda4a4a72a8a652?dir=lib
 │   ├───nixpkgs: github:nixos/nixpkgs/f9d39fb9aff0efee4a3d5f4a6d7c17701d38a1d8
@@ -56,7 +56,7 @@ Inputs:
 │   ├───nixpkgs: github:NixOS/nixpkgs/e5d1c87f5813afde2dda384ac807c57a105721cc
 │   └───utils: github:numtide/flake-utils/1ef2e671c3b0c19053962c07dbda38332dcebf26
 │       └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
-├───nixpkgs: github:NixOS/nixpkgs/73de017ef2d18a04ac4bfd0c02650007ccb31c2a
+├───nixpkgs: github:NixOS/nixpkgs/13aff9b34cc32e59d35c62ac9356e4a41198a538
 ├───readme-py: github:erictossell/readme-py/b04ef6299281dc2cf15f889135c16ea6a7aaaa4b
 │   ├───flake-utils: github:numtide/flake-utils/1ef2e671c3b0c19053962c07dbda38332dcebf26
 │   │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
@@ -82,7 +82,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=7c62add6741ff2439b5b88cde9f6241d4a01e048&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=a84af6d36b1c1fa01581ecdcb0d53c7c025d37e4&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
