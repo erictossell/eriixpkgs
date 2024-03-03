@@ -10,23 +10,23 @@ My collection of Nix packages. Home-rolled, custom built.
 ### Directory Structure
 
 - [templates/](templates/)
-  - [go-flake/](templates/go-flake/)
-  - [python-flake/](templates/python-flake/)
-    - [app/](templates/python-flake/app/)
-  - [rust-flake/](templates/rust-flake/)
-    - [src/](templates/rust-flake/src/)
+  - [go/](templates/go/)
+  - [python/](templates/python/)
+    - [app/](templates/python/app/)
+  - [rust/](templates/rust/)
+    - [src/](templates/rust/src/)
 
 ### Flake Info
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=7c62add6741ff2439b5b88cde9f6241d4a01e048&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=c336667ead1cc3317ad0bb733c82dc40b0c6cac3&shallow=1
 Description:   Eriixpkgs is a collection of my personal Nix packages and NixOS modules
-Path:          /nix/store/a1p11424qi1dlzwv3r0yng5fh0mcfs8z-source
-Revision:      7c62add6741ff2439b5b88cde9f6241d4a01e048
-Last modified: 2024-02-27 00:16:22
+Path:          /nix/store/ycyq9f095mc9ykvbcl1apkf16lxlcrfw-source
+Revision:      c336667ead1cc3317ad0bb733c82dc40b0c6cac3
+Last modified: 2024-03-03 00:17:10
 Inputs:
-├───eriixvim: github:erictossell/eriixvim/75b75719ac9db3ca01aeec0231cd535bb3ca847d
+├───eriixvim: github:erictossell/eriixvim/64c87029d157325fd9aa6bd4e8e5bee66676ad1e
 │   ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
 │   │   └───nixpkgs-lib: github:NixOS/nixpkgs/97b17f32362e475016f942bbdfda4a4a72a8a652?dir=lib
 │   ├───nixpkgs: github:nixos/nixpkgs/f9d39fb9aff0efee4a3d5f4a6d7c17701d38a1d8
@@ -46,7 +46,7 @@ Inputs:
 │           │   └───nixpkgs follows input 'eriixvim/nixvim/pre-commit-hooks/nixpkgs'
 │           ├───nixpkgs follows input 'eriixvim/nixvim/nixpkgs'
 │           └───nixpkgs-stable follows input 'eriixvim/nixvim/nixpkgs'
-├───flake-utils: github:numtide/flake-utils/1ef2e671c3b0c19053962c07dbda38332dcebf26
+├───flake-utils: github:numtide/flake-utils/d465f4819400de7c8d874d50b982301f28a84605
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
 ├───go-time: github:erictossell/go-time/d2e5a8c286fde94478e16a597bc78b6954e3b9a8
 │   └───nixpkgs: github:NixOS/nixpkgs/c3e128f3c0ecc1fb04aef9f72b3dcc2f6cecf370
@@ -56,11 +56,11 @@ Inputs:
 │   ├───nixpkgs: github:NixOS/nixpkgs/e5d1c87f5813afde2dda384ac807c57a105721cc
 │   └───utils: github:numtide/flake-utils/1ef2e671c3b0c19053962c07dbda38332dcebf26
 │       └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
-├───nixpkgs: github:NixOS/nixpkgs/73de017ef2d18a04ac4bfd0c02650007ccb31c2a
-├───readme-py: github:erictossell/readme-py/b04ef6299281dc2cf15f889135c16ea6a7aaaa4b
-│   ├───flake-utils: github:numtide/flake-utils/1ef2e671c3b0c19053962c07dbda38332dcebf26
+├───nixpkgs: github:NixOS/nixpkgs/1536926ef5621b09bba54035ae2bb6d806d72ac8
+├───readme-py: github:erictossell/readme-py/a6db28f1c700550bda2aeb8f40a1f9c9e531c8ef
+│   ├───flake-utils: github:numtide/flake-utils/d465f4819400de7c8d874d50b982301f28a84605
 │   │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
-│   ├───nixpkgs: github:NixOS/nixpkgs/cbc4211f0afffe6dfd2478a62615dd5175a13f9a
+│   ├───nixpkgs: github:NixOS/nixpkgs/1536926ef5621b09bba54035ae2bb6d806d72ac8
 │   └───poetry2nix: github:nix-community/poetry2nix/3c92540611f42d3fb2d0d084a6c694cd6544b609
 │       ├───flake-utils: github:numtide/flake-utils/1ef2e671c3b0c19053962c07dbda38332dcebf26
 │       │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
@@ -82,7 +82,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=7c62add6741ff2439b5b88cde9f6241d4a01e048&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=c336667ead1cc3317ad0bb733c82dc40b0c6cac3&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
