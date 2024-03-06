@@ -35,14 +35,19 @@
 	  path = ./templates/go;
 	  description = "A template for a Go flake";
 	};
-	rust = {
-	  path = ./templates/rust;
-	  description = "A template for a Rust flake";
-	};
 	python = {
 	  path = ./templates/python;
 	  description = "A template for a Python flake";
 	};
+	rust = {
+	  path = ./templates/rust;
+	  description = "A template for a Rust flake";
+	};
+	simple = {
+	  path = ./templates/simple;
+	  description = "A simple template for a flake";
+	};
+	
       };
     };
 }
