@@ -39,18 +39,19 @@ nix flake init -t github:erictossell/eriixpkgs#rust
     - [app/](templates/python/app/)
   - [rust/](templates/rust/)
     - [src/](templates/rust/src/)
+  - [simple/](templates/simple/)
 
 ### Flake Info
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=4a62bf950b8436e88f53d752b35bc3a968c261ed&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=fed53459a94eddd6ad7ea5e4cc7a0581870761bf&shallow=1
 Description:   Eriixpkgs is a collection of my personal Nix packages and NixOS modules
-Path:          /nix/store/qvrrawm3xq9m9l1vc9x7rk4gax4yjs79-source
-Revision:      4a62bf950b8436e88f53d752b35bc3a968c261ed
-Last modified: 2024-03-06 00:16:32
+Path:          /nix/store/8sc38w7fx3pqqa3nrl3f208sbi76krr5-source
+Revision:      fed53459a94eddd6ad7ea5e4cc7a0581870761bf
+Last modified: 2024-03-07 00:13:09
 Inputs:
-├───eriixvim: github:erictossell/eriixvim/944ba91ffe280960d07c51d002dd07fdf9c16606
+├───eriixvim: github:erictossell/eriixvim/58104ead114107ae554198189276efdea2461f18
 │   ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
 │   │   └───nixpkgs-lib: github:NixOS/nixpkgs/97b17f32362e475016f942bbdfda4a4a72a8a652?dir=lib
 │   ├───nixpkgs: github:nixos/nixpkgs/f9d39fb9aff0efee4a3d5f4a6d7c17701d38a1d8
@@ -106,7 +107,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=4a62bf950b8436e88f53d752b35bc3a968c261ed&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=fed53459a94eddd6ad7ea5e4cc7a0581870761bf&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
@@ -140,7 +141,8 @@ git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=4a62bf9
 └───templates
     ├───go: template: A template for a Go flake
     ├───python: template: A template for a Python flake
-    └───rust: template: A template for a Rust flake
+    ├───rust: template: A template for a Rust flake
+    └───simple: template: A simple template for a flake
 
 ```
 
