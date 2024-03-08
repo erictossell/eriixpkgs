@@ -45,13 +45,13 @@ nix flake init -t github:erictossell/eriixpkgs#rust
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=fed53459a94eddd6ad7ea5e4cc7a0581870761bf&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=95193c3742e7086e7ff11fec63ca35d7a21ef69a&shallow=1
 Description:   Eriixpkgs is a collection of my personal Nix packages and NixOS modules
-Path:          /nix/store/8sc38w7fx3pqqa3nrl3f208sbi76krr5-source
-Revision:      fed53459a94eddd6ad7ea5e4cc7a0581870761bf
-Last modified: 2024-03-07 00:13:09
+Path:          /nix/store/ibzpvm77chbyjfvawbrcghjk96azlbfi-source
+Revision:      95193c3742e7086e7ff11fec63ca35d7a21ef69a
+Last modified: 2024-03-08 00:16:33
 Inputs:
-├───eriixvim: github:erictossell/eriixvim/58104ead114107ae554198189276efdea2461f18
+├───eriixvim: github:erictossell/eriixvim/e49125504b74527131722099478b50ef69e59332
 │   ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
 │   │   └───nixpkgs-lib: github:NixOS/nixpkgs/97b17f32362e475016f942bbdfda4a4a72a8a652?dir=lib
 │   ├───nixpkgs: github:nixos/nixpkgs/f9d39fb9aff0efee4a3d5f4a6d7c17701d38a1d8
@@ -81,7 +81,7 @@ Inputs:
 │   ├───nixpkgs: github:NixOS/nixpkgs/e5d1c87f5813afde2dda384ac807c57a105721cc
 │   └───utils: github:numtide/flake-utils/1ef2e671c3b0c19053962c07dbda38332dcebf26
 │       └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
-├───nixpkgs: github:NixOS/nixpkgs/b8697e57f10292a6165a20f03d2f42920dfaf973
+├───nixpkgs: github:NixOS/nixpkgs/9df3e30ce24fd28c7b3e2de0d986769db5d6225d
 ├───readme-py: github:erictossell/readme-py/a6db28f1c700550bda2aeb8f40a1f9c9e531c8ef
 │   ├───flake-utils: github:numtide/flake-utils/d465f4819400de7c8d874d50b982301f28a84605
 │   │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e
@@ -107,7 +107,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=fed53459a94eddd6ad7ea5e4cc7a0581870761bf&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=95193c3742e7086e7ff11fec63ca35d7a21ef69a&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
