@@ -7,11 +7,11 @@
         "nixvim": "nixvim"
       },
       "locked": {
-        "lastModified": 1710030260,
-        "narHash": "sha256-gEEckKtr50ahUeg2rlKKQvcyiM60xbriqnNDN9MJWS4=",
+        "lastModified": 1710116584,
+        "narHash": "sha256-zG++ad3FyuQ8qvkWNTjpD5aXQahKvosOjkvwkoni0H4=",
         "owner": "erictossell",
         "repo": "eriixvim",
-        "rev": "8479daa78d1be8e765b6a9b458bdbfffd94eb6ad",
+        "rev": "1696238a6439f0c3129bdde18ab8ab4b2d21c2bf",
         "type": "github"
       },
       "original": {
@@ -99,11 +99,11 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1709126324,
-        "narHash": "sha256-q6EQdSeUZOG26WelxqkmR7kArjgWCdw5sfJVHPH/7j8=",
+        "lastModified": 1710146030,
+        "narHash": "sha256-SZ5L6eA7HJ/nmkzGG7/ISclqe6oZdOZTNoesiInkXPQ=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "d465f4819400de7c8d874d50b982301f28a84605",
+        "rev": "b1d9ab70662946ef0850d488da1c9019f3a9752a",
         "type": "github"
       },
       "original": {
