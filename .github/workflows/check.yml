@@ -22,6 +22,10 @@ jobs:
       uses: cachix/install-nix-action@v23
       with: 
         nix_path: nixpkgs=channel:nixos-unstable
-
-    - name: Flake update
+    
+    - name: Version
+      run: |
+        nix --version
+        nix-env --version
+    - name: Flake check
       run: nix flake check   
