@@ -45,18 +45,18 @@ nix flake init -t github:erictossell/eriixpkgs#rust
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixpkgs/eriixpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=520b4930c17cfcc8b6b215c8491f8b2114a8b975&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=9f8e987bb9d8d5cae685c6ea1990a8f9f3ed7184&shallow=1
 Description:   Eriixpkgs is a collection of my personal Nix packages and NixOS modules
-Path:          /nix/store/qw1ciqfzhm56zxz8plfvgk9a25dlzi4m-source
-Revision:      520b4930c17cfcc8b6b215c8491f8b2114a8b975
+Path:          /nix/store/lfr43xw6hpcx4grxfzf3v75pip381f2l-source
+Revision:      9f8e987bb9d8d5cae685c6ea1990a8f9f3ed7184
 Revisions:     1
-Last modified: 2024-07-07 00:21:42
+Last modified: 2024-07-14 00:22:16
 Inputs:
-├───eriixvim: github:erictossell/eriixvim/def3d45fa7848c1bce05a70fa919311df14943de (2024-07-05 05:02:57)
+├───eriixvim: github:erictossell/eriixvim/cd0eb4ba1d26dfc81ee622dc6a32bd3e29b5101b (2024-07-13 21:11:17)
 │   ├───flake-parts: github:hercules-ci/flake-parts/9227223f6d922fee3c7b190b2cc238a99527bbb7 (2024-07-03 08:15:18)
 │   │   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/5daf0514482af3f97abaefc78a6606365c9108e2.tar.gz?narHash=sha256-Fm2rDDs86sHy0/1jxTOKB1118Q0O3Uc7EC0iXvXKpbI%3D (2024-07-01 23:35:45)
-│   ├───nixpkgs: github:nixos/nixpkgs/9f4128e00b0ae8ec65918efeba59db998750ead6 (2024-07-03 18:27:49)
-│   └───nixvim: github:nix-community/nixvim/92e9f5466dcfd51e8e2e7627e992c1c9d5fc6fd6 (2024-07-04 21:00:56)
+│   ├───nixpkgs: github:nixos/nixpkgs/7e7c39ea35c5cdd002cd4588b03a3fb9ece6fad9 (2024-07-12 07:14:11)
+│   └───nixvim: github:nix-community/nixvim/06a44e9e8814ab13ea013e222637a497a50e96e4 (2024-07-13 19:20:51)
 │       ├───devshell: github:numtide/devshell/1ebbe68d57457c8cae98145410b164b5477761f4 (2024-06-03 10:02:49)
 │       │   ├───flake-utils: github:numtide/flake-utils/4022d587cbbfd70fe950c1e2083a02621806a725 (2023-12-04 08:58:27)
 │       │   │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
@@ -65,7 +65,7 @@ Inputs:
 │       ├───flake-parts: github:hercules-ci/flake-parts/4e3583423212f9303aa1a6337f8dffb415920e4f (2024-07-01 23:44:14)
 │       │   └───nixpkgs-lib follows input 'eriixvim/nixvim/nixpkgs'
 │       ├───git-hooks: github:cachix/git-hooks.nix/0ff4381bbb8f7a52ca4a851660fc7a437a4c6e07 (2024-06-24 20:12:25)
-│       │   ├───flake-compat: github:edolstra/flake-compat/0f9255e01c2351cc7d116c072cb317785dd33b33 (2023-10-04 13:37:54)
+│       │   ├───flake-compat follows input 'eriixvim/nixvim/flake-compat'
 │       │   ├───gitignore: github:hercules-ci/gitignore.nix/637db329424fd7e46cf4185293b9cc8c88c95394 (2024-02-28 02:28:52)
 │       │   │   └───nixpkgs follows input 'eriixvim/nixvim/git-hooks/nixpkgs'
 │       │   ├───nixpkgs follows input 'eriixvim/nixvim/nixpkgs'
@@ -79,19 +79,19 @@ Inputs:
 │           └───nixpkgs follows input 'eriixvim/nixvim/nixpkgs'
 ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-├───go-time: github:erictossell/go-time/22b1066f50a0b7c7361b1bdbc915b0cbf83536cd (2024-06-29 15:27:48)
-│   └───nixpkgs: github:NixOS/nixpkgs/b2852eb9365c6de48ffb0dc2c9562591f652242a (2024-06-27 16:44:53)
+├───go-time: github:erictossell/go-time/9500af69843fc74ca86b686506bc7d2f0490d0c4 (2024-07-07 23:19:03)
+│   └───nixpkgs: github:NixOS/nixpkgs/9f4128e00b0ae8ec65918efeba59db998750ead6 (2024-07-03 18:27:49)
 ├───homepage-nix: github:erictossell/homepage-nix/540adeb9f307826c9bdd1b047a8b4467160709a4 (2024-07-05 04:49:49)
 │   ├───naersk: github:nix-community/naersk/941ce6dc38762a7cfb90b5add223d584feed299b (2024-06-18 16:21:15)
 │   │   └───nixpkgs: path:/nix/store/dk2rpyb6ndvfbf19bkb2plcz5y3k8i5v-source?lastModified=0&narHash=sha256-rwz8NJZV%2B387rnWpTYcXaRNvzUSnnF9aHONoJIYmiUQ%3D (1970-01-01 00:00:00)
 │   ├───nixpkgs: github:NixOS/nixpkgs/1afc5440469f94e7ed26e8648820971b102afdc3 (2024-07-04 10:07:58)
 │   └───utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │       └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-├───nixpkgs: github:NixOS/nixpkgs/9f4128e00b0ae8ec65918efeba59db998750ead6 (2024-07-03 18:27:49)
-├───readme-py: github:erictossell/readme-py/fb10275a3e38114828f1b4b01c5d861b55ed9c91 (2024-07-07 00:12:51)
+├───nixpkgs: github:NixOS/nixpkgs/7e7c39ea35c5cdd002cd4588b03a3fb9ece6fad9 (2024-07-12 07:14:11)
+├───readme-py: github:erictossell/readme-py/2fb1b6336cd9c05fa5eef7476b5c56acd53e0d9e (2024-07-14 00:13:15)
 │   ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │   │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-│   ├───nixpkgs: github:NixOS/nixpkgs/9f4128e00b0ae8ec65918efeba59db998750ead6 (2024-07-03 18:27:49)
+│   ├───nixpkgs: github:NixOS/nixpkgs/7e7c39ea35c5cdd002cd4588b03a3fb9ece6fad9 (2024-07-12 07:14:11)
 │   └───poetry2nix: github:nix-community/poetry2nix/42262f382c68afab1113ebd1911d0c93822d756e (2024-07-01 16:21:24)
 │       ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │       │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
@@ -113,7 +113,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=520b4930c17cfcc8b6b215c8491f8b2114a8b975&shallow=1
+git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=9f8e987bb9d8d5cae685c6ea1990a8f9f3ed7184&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
@@ -124,25 +124,25 @@ git+file:///home/runner/work/eriixpkgs/eriixpkgs?ref=refs/heads/main&rev=520b493
 │   │   ├───eriixvim: package 'nixvim'
 │   │   ├───go-time: package 'go-time-0.1.58'
 │   │   ├───homepage-nix: package 'homepage-nix-0.2.0'
-│   │   ├───readme-py: package 'python3.11-readme-py-0.1.0'
+│   │   ├───readme-py: package 'python3.12-readme-py-0.1.0'
 │   │   └───russh: package 'russh-0.1.92'
 │   ├───aarch64-linux
 │   │   ├───eriixvim: package 'nixvim'
 │   │   ├───go-time: package 'go-time-0.1.58'
 │   │   ├───homepage-nix: package 'homepage-nix-0.2.0'
-│   │   ├───readme-py: package 'python3.11-readme-py-0.1.0'
+│   │   ├───readme-py: package 'python3.12-readme-py-0.1.0'
 │   │   └───russh: package 'russh-0.1.92'
 │   ├───x86_64-darwin
 │   │   ├───eriixvim: package 'nixvim'
 │   │   ├───go-time: package 'go-time-0.1.58'
 │   │   ├───homepage-nix: package 'homepage-nix-0.2.0'
-│   │   ├───readme-py: package 'python3.11-readme-py-0.1.0'
+│   │   ├───readme-py: package 'python3.12-readme-py-0.1.0'
 │   │   └───russh: package 'russh-0.1.92'
 │   └───x86_64-linux
 │       ├───eriixvim: package 'nixvim'
 │       ├───go-time: package 'go-time-0.1.58'
 │       ├───homepage-nix: package 'homepage-nix-0.2.0'
-│       ├───readme-py: package 'python3.11-readme-py-0.1.0'
+│       ├───readme-py: package 'python3.12-readme-py-0.1.0'
 │       └───russh: package 'russh-0.1.92'
 └───templates
     ├───go: template: A template for a Go flake
