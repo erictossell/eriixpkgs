@@ -30,11 +30,11 @@
         "nixvim": "nixvim"
       },
       "locked": {
-        "lastModified": 1723346025,
-        "narHash": "sha256-Duwf8rqSLoPQqKgsZw9zWfJ0uELlL06ZK9y2RdA8LDg=",
+        "lastModified": 1723346234,
+        "narHash": "sha256-uMpdcAm96ng+M2vSaWEYYG5ZuCUHGV1APaqtQMY2ZwA=",
         "owner": "erictossell",
         "repo": "eriixvim",
-        "rev": "36acc277c17b876799044eb0689655416b72577e",
+        "rev": "9cedbe64f84364d2dda4cb0c5f250d2aa701d3a8",
         "type": "github"
       },
       "original": {
@@ -456,11 +456,11 @@
     },
     "nixpkgs_6": {
       "locked": {
-        "lastModified": 1723175592,
-        "narHash": "sha256-M0xJ3FbDUc4fRZ84dPGx5VvgFsOzds77KiBMW/mMTnI=",
+        "lastModified": 1723637854,
+        "narHash": "sha256-med8+5DSWa2UnOqtdICndjDAEjxr5D7zaIiK4pn0Q7c=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "5e0ca22929f3342b19569b21b2f3462f053e497b",
+        "rev": "c3aa7b8938b17aebd2deecf7be0636000d62a2b9",
         "type": "github"
       },
       "original": {
@@ -471,11 +471,11 @@
     },
     "nixpkgs_7": {
       "locked": {
-        "lastModified": 1723175592,
-        "narHash": "sha256-M0xJ3FbDUc4fRZ84dPGx5VvgFsOzds77KiBMW/mMTnI=",
+        "lastModified": 1723637854,
+        "narHash": "sha256-med8+5DSWa2UnOqtdICndjDAEjxr5D7zaIiK4pn0Q7c=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "5e0ca22929f3342b19569b21b2f3462f053e497b",
+        "rev": "c3aa7b8938b17aebd2deecf7be0636000d62a2b9",
         "type": "github"
       },
       "original": {
@@ -550,11 +550,11 @@
         "treefmt-nix": "treefmt-nix_2"
       },
       "locked": {
-        "lastModified": 1723017738,
-        "narHash": "sha256-Ihz23eqyiCX4CABf9r84BLKDw3T9Yv1UCgV3+aJ7mjg=",
+        "lastModified": 1723854676,
+        "narHash": "sha256-+BrHfNuXrqeE7PoV6xDaoh0joYiJkvTTCIV0fFR3THw=",
         "owner": "nix-community",
         "repo": "poetry2nix",
-        "rev": "cc0af1948e0887cd280496bd891fd40e52b40ff4",
+        "rev": "d650118bce34c0238b9b54f23f7f173f9e4db867",
         "type": "github"
       },
       "original": {
@@ -570,11 +570,11 @@
         "poetry2nix": "poetry2nix"
       },
       "locked": {
-        "lastModified": 1723335221,
-        "narHash": "sha256-ESZ9xXAruI69FdoVIVZVmIYgW808+KJlJ+lextNvfAA=",
+        "lastModified": 1723940004,
+        "narHash": "sha256-fLRdLKVZ0C0CKiXn/cJ0W19ciyY5Pr9SOdTw1kgSzpY=",
         "owner": "erictossell",
         "repo": "readme-py",
-        "rev": "ece153c79680f3972dcfbc4143a47c837c8b3d4f",
+        "rev": "ff30adc09636c0419c174bd064ccdf7e68152f76",
         "type": "github"
       },
       "original": {
